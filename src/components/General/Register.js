@@ -28,7 +28,7 @@ class Register extends React.Component {
         
         storage.users = JSON.stringify([...JSON.parse(storage.users),user]);
 
-        console.log(storage.users)
+        // console.log(storage.users)
     }
 
     handleClick = () => {

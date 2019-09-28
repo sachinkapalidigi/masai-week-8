@@ -1,9 +1,12 @@
 import React from "react";
+import EndUserRoutes from "./Routes/EndUserRoutes";
+
+
 
 class UserApp extends React.Component {
     constructor(props){
         super(props);
-
+        
     }
 
 
@@ -11,7 +14,7 @@ class UserApp extends React.Component {
 
         return (
             <>
-                Main App
+                <EndUserRoutes match={this.props.match} />
             </>
         )
     }

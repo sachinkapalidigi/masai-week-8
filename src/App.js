@@ -16,9 +16,10 @@ class App extends React.Component {
         return (
             <>
                 <Switch>
-                    <Route exact path="/" component={UserApp} />
-                    <Route path="/restaurant/admin" component={RestaurantApp} />
-                    <Route component={PageNotFound} />
+                    <Route path="/restaurant-list" component={UserApp} />
+                    <Route path="/restaurant/admin" component={RestaurantApp} />                    
+
+                    
                 </Switch>
             </>
         )
